@@ -10,6 +10,7 @@
 	https://exporter.nih.gov/ExPORTER_Catalog.aspx
 
 	Run 1_NIH_Reporter_to_KGTK_files.ipynb notebook (in processing folder) to convert data from NIH Reporter csv files to KGTK files
+	
 		a. Extract the nodes from NIH files and produce kgtk files
 
 	https://github.com/usc-isi-i2/table-linker-pipelines/blob/main/nih/processing/1_NIH_Reporter_to_KGTK_files.ipynb
@@ -25,6 +26,7 @@
 	https://drive.google.com/drive/u/0/folders/1UKwiTVef5yqhsUD454h_inYqjcl5Pcqu
 
 	Run 2_KGTK_files_to_tl.ipynb notebook (in processing folder) to convert KGTK files to tl files
+	
 		a. Calculate Coinvestigator from NIH data
 		b. Convert KGTK files to tl files
 
@@ -72,6 +74,7 @@
 	https://github.com/usc-isi-i2/table-linker-pipelines/blob/main/nih/processing/cluster_coor.tsv
 
 	Run 3_Output_tableau.ipynb notebook to convert the input files for tableau input tsv file
+	
 		a. Find nearest hospital using kdtree
 		b. Add internet coverage as a column (for background in tableau map)
 		c. Output tsv files for tableau visualization
