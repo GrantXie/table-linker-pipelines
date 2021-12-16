@@ -27,8 +27,9 @@
 
 	Run 2_KGTK_files_to_tl.ipynb notebook (in processing folder) to convert KGTK files to tl files
 	
-		a. Calculate Coinvestigator from NIH data
-		b. Convert KGTK files to tl files
+		a. Contatenate kgtk files
+		b. Calculate Coinvestigator from NIH data
+		c. Convert KGTK files to tl files
 
 	https://github.com/usc-isi-i2/table-linker-pipelines/blob/main/nih/processing/2_KGTK_files_to_tl.ipynb
 
